@@ -1,0 +1,32 @@
+.header {
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+  background: paleturquoise;
+}
+
+.header a {
+  margin-right: 20px;
+}
+
+.active {
+  color: red;
+}
+
+/* .template {
+  display: flex;
+  align-content: space-between;
+  height: calc(100vh - 45px);
+
+
+}
+
+.template .menu {
+  width: 200px;
+  background: burlywood;
+}
+
+.template .content {
+  flex: 1;
+  background: beige;
+} */

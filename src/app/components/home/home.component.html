@@ -1,0 +1,22 @@
+<header class="header">
+  <a [routerLink]="[ '/Home/Welcome' ]" routerLinkActive="active">欢迎</a>
+  <a [routerLink]="[ '/Home/Produce' ]" routerLinkActive="active">商品</a>
+  <a [routerLink]="[ '/Home/News' ]" routerLinkActive="active">新闻</a>
+  <a [routerLink]="[ '/Home/Settings' ]" routerLinkActive="active">设置</a>
+</header>
+
+<router-outlet></router-outlet>
+
+<!-- <div class="template">
+  <div class="menu">
+    <ul>
+      <li><a [routerLink]="[ '/Home/Produce' ]" routerLinkActive="active">商品1页面</a></li>
+      <li><a href="#">商品2</a></li>
+      <li><a href="#">商品3</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    内容
+    <router-outlet></router-outlet>
+  </div>
+</div> -->

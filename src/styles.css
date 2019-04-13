@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+/* 控制路由布局公共样式 */
+.template {
+  display: flex;
+  align-content: space-between;
+  height: calc(100vh - 45px);
+
+
+}
+
+.template .menu {
+  width: 200px;
+  background: burlywood;
+}
+
+.template .content {
+  flex: 1;
+  background: beige;
+}
+
+.template .menu ul>li {
+  padding-left: 20px;
+  line-height: 30px;
+}
